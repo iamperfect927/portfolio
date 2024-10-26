@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* import react-toastify/dist/ReactToastify.css; */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Kumbh Sans',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
