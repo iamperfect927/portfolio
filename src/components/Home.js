@@ -1,6 +1,6 @@
 // src/components/Home.js
 import React from 'react';
-import parfait_img from '../assets/parfait_img.jpg';
+import parfait from '../assets/parfait.jpg';
 
 function Home() {
   return (
@@ -9,7 +9,7 @@ function Home() {
       <div className="md:w-1/2 flex justify-center mb-4 md:mb-0 ">
         <div className="shadow-lg p-1 w-64 h-64 md:w-80 md:h-80  rounded-2xl"> {/* Smaller card with shadow */}
           <img
-            src={parfait_img}
+            src={parfait}
             alt="my image"
             className="w-full h-full object-cover object-top"
           />
